@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  text-align: center;
+}
+
+section p {
+  margin-bottom: 20px;
+}
+
+section ul {
+  margin-left: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+#course {
+  background-color: #f9f9f9;
+}
+
+#course .container {
+  text-align: center;
+}
+
+#course h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#course p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+#course ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#course ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+#course .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#course .button:hover {
+  background-color: #0056b3;
+}
